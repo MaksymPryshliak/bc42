@@ -1,0 +1,244 @@
+:root {
+    --light-color: #FFF;
+    --border-color: #303030;
+    --primary-color: #555;
+    --servblock-color: #9DA4BD;
+    --brand-color: #FF6C00;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .header-btn {
+    background-color: transparent;
+} */
+
+ul {
+    list-style: none;
+}
+
+.header {
+    background-color: var(--primary-color);
+  }
+
+.link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3333;
+    letter-spacing: 0.1em;
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+.header-btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3333;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: transparent; 
+    border: 1px solid var(--brand-color);
+    border-radius: 25px;
+}
+
+.header-btn:hover,
+.header-btn:focus{
+
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    transition: 0.4s;
+}
+
+.header-contact {
+    text-transform: uppercase;
+  }
+
+.uptitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3636;
+    color: var(--servblock-color);
+    text-transform: uppercase;
+  }
+
+.uptitle_black{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3636;
+    color: var(--border-color);
+    text-transform: uppercase;
+}
+
+  .section-title {
+    font-family: 'Raleway';
+    font-size: 42px;
+    line-height: 1.1666;
+    color: var(--border-color);
+    letter-spacing: 0.05em;
+  }
+  
+  .hero{
+    background-color: var(--primary-color);
+  }
+
+  .hero-title {
+    font-family: 'Raleway';
+    font-size: 72px;
+    line-height: 1.18;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+  }
+
+  .header-link:hover,
+  .header-link:focus {
+    color: var(--brand-color);
+  }
+
+  .about-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6666;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+  }
+
+  .about-desc {
+    font-size: 14px;
+    line-height: 1.8571;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+  }
+
+  .prices{
+    background-color: var(--primary-color)
+  }
+
+  .prices .hero-title {
+    font-size: 42px;
+    line-height: 1.6666;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+  }
+
+
+.price_item {
+    display: block;
+}
+
+.price_item p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6666;
+    color: var(--servblock-color);
+  } 
+
+.achievement {
+    font-size: 42px;
+    line-height: 1.3571;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--border-color);
+}
+
+sup{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3750;
+    text-align: center;
+    color: var(--brand-color);
+}
+
+.achievement_description {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: var(--border-color);
+
+}
+
+.barber_name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.388;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+
+.barber_spec{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3571;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+}
+
+.lower-title {
+    color: var(--light-color);
+}
+
+.form {
+    background-color: var(--primary-color);
+}
+
+.adress{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6666;
+    letter-spacing: 0.02em;
+    color: var(--servblock-color);
+    text-decoration: none;
+}
+
+.contacts_tel {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6666;
+    letter-spacing: 0.02em;
+    color: var(--servblock-color);
+    text-decoration: none;
+}
+
+.contacts_mail {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6666;
+    letter-spacing: 0.02em;
+    color: var(--servblock-color);
+    text-decoration-line: underline;
+}
+
+.work-time{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3636;
+    text-transform: uppercase;
+    color: var(--light-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+.footer_link {
+font-weight: 600;
+font-size: 11px;
+line-height: 1.3636;
+letter-spacing: 0.2em;
+color: var(--border-color);
+text-decoration: none;
+}
